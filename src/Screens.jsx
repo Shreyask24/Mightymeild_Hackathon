@@ -18,7 +18,9 @@ export const possibleTileContents = [
 
 export function StartScreen({ start }) {
   return (
-    <div className="bg-pink-200 ml-[38vw] w-[50vh] h-[50vh] text-center mt-[12vw] p-10 rounded-2xl">
+    <div className="flex flex-col items-center justify-center flex-wrap bg-pink-200 ml-[38vw] w-[50vh] h-[50vh] text-center mt-[12vw] rounded-2xl overflow-hidden 
+  
+    ">
       <h1 className=" font-bold text-[30px] text-pink-500 mt-[25px] mb-[30px]">Memory</h1>
       <h3 className="font-semibold text-pink-500 mb-[20px]">Flip over tiles looking for pairs</h3>
 
